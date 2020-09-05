@@ -1,0 +1,38 @@
+.controller {
+  border: 1px solid black;
+  width: 250px;
+  height: 100px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.controller .start {
+  background: gray;
+  border: 1px solid #4c4c4c;
+  width: 8px;
+  height: 22px;
+  border-radius: 50px;
+  transform: skew(-0.1turn, 18deg);
+  position: absolute;
+  top: 55px;
+  left: 130px;
+}
+.controller .start p {
+  color: #4c4c4c;
+  font-size: 10px;
+  margin-top: 25px;
+  margin-left: 8px;
+  transform: skew(0.1turn, -18deg);
+}
+.controller .select {
+  background: gray;
+  border: 1px solid #4c4c4c;
+  width: 8px;
+  height: 22px;
+  border-radius: 50px;
+  transform: skew(-0.1turn, 18deg);
+  position: absolute;
+  top: 55px;
+  left: 90px;
+}
+
+/*# sourceMappingURL=main.css.map */
