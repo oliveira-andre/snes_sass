@@ -73,7 +73,6 @@ $main-color: #a8aaaa;
     a {
       width: 30px;
       height: 30px;
-      background: black;
       z-index: 100;
       border: 1px solid black;
       border-radius: 50%;
@@ -82,21 +81,29 @@ $main-color: #a8aaaa;
       &:nth-child(1) {
         top: 40px;
         left: 95px;
+        background: #985b00;
+        border-color: #8f632c !important;
       }
 
       &:nth-child(2) {
         top: 80px;
         left: 150;
+        background: #017455;
+        border-color: #1a6e52 !important;
       }
 
       &:nth-child(3) {
         top: 90px;
         left: 50px;
+        background: #9c1a26;
+        border-color: #9c2e38 !important;
       }
 
       &:nth-child(4) {
         top: 130px;
         left: 100px;
+        background: #014680;
+        border-color: #14254b !important;
       }
     }
   }
