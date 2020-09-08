@@ -62,9 +62,37 @@
   margin-left: 180px;
   transform: rotate(180deg);
 }
+.controller .right-side .background {
+  background: #737A82;
+  width: 200px;
+  height: 180px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.controller .right-side .group-1 {
+  width: 45px;
+  height: 115px;
+  background: #BCB7B1;
+  border-radius: 30px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 121px;
+  top: 66px;
+}
+.controller .right-side .group-2 {
+  width: 45px;
+  height: 115px;
+  background: #BCB7B1;
+  border-radius: 30px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 70px;
+  top: 26px;
+}
 .controller .right-side a {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   z-index: 100;
   border: 1px solid black;
   border-radius: 50%;
@@ -72,27 +100,27 @@
 }
 .controller .right-side a:nth-child(1) {
   top: 40px;
-  left: 95px;
-  background: #985b00;
+  left: 98px;
+  background: #FFBB4F;
   border-color: #8f632c !important;
 }
 .controller .right-side a:nth-child(2) {
   top: 80px;
   left: 150;
-  background: #017455;
+  background: #00916A;
   border-color: #1a6e52 !important;
 }
 .controller .right-side a:nth-child(3) {
   top: 90px;
   left: 50px;
-  background: #9c1a26;
+  background: #E83A55;
   border-color: #9c2e38 !important;
 }
 .controller .right-side a:nth-child(4) {
   top: 130px;
   left: 100px;
-  background: #014680;
-  border-color: #14254b !important;
+  background: #004AA5;
+  border-color: #22457b !important;
 }
 
 /*# sourceMappingURL=main.css.map */
