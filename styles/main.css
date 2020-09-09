@@ -11,7 +11,7 @@
 }
 .controller .left-side, .controller .right-side {
   width: 250px;
-  height: 200px;
+  height: 210px;
   position: absolute;
   border-radius: 50%;
   background: #a8aaaa;
@@ -19,6 +19,33 @@
 }
 .controller .left-side {
   margin-left: -170px;
+}
+.controller .left-side .background {
+  background: transparent;
+  width: 137px;
+  height: 137px;
+  border: 1px solid #52534E;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+.controller .left-side .horizontal {
+  width: 90px;
+  height: 30px;
+  background: #7D7E82;
+  position: absolute;
+  top: 85px;
+  left: 70px;
+  border-radius: 2px;
+}
+.controller .left-side .vertical {
+  width: 30px;
+  height: 90px;
+  background: #7D7E82;
+  position: absolute;
+  top: 55px;
+  left: 100px;
+  border-radius: 2px;
 }
 .controller .start {
   background: #585D60;
@@ -71,7 +98,7 @@
 .controller .right-side .background {
   background: #737A82;
   width: 200px;
-  height: 180px;
+  height: 190px;
   border: 1px solid #52534E;
   border-radius: 50%;
   margin-top: 10px;
@@ -97,7 +124,7 @@
   left: 70px;
   top: 26px;
 }
-.controller .right-side a {
+.controller .right-side .buttons > a {
   width: 35px;
   height: 35px;
   z-index: 100;
@@ -105,25 +132,25 @@
   border-radius: 50%;
   position: absolute;
 }
-.controller .right-side a:nth-child(1) {
+.controller .right-side .buttons > a:nth-child(1) {
   top: 40px;
   left: 98px;
   background: #FFBB4F;
   border-color: #8f632c !important;
 }
-.controller .right-side a:nth-child(2) {
+.controller .right-side .buttons > a:nth-child(2) {
   top: 80px;
   left: 150;
   background: #00916A;
   border-color: #1a6e52 !important;
 }
-.controller .right-side a:nth-child(3) {
+.controller .right-side .buttons > a:nth-child(3) {
   top: 90px;
   left: 50px;
   background: #E83A55;
   border-color: #9c2e38 !important;
 }
-.controller .right-side a:nth-child(4) {
+.controller .right-side .buttons > a:nth-child(4) {
   top: 130px;
   left: 100px;
   background: #004AA5;
