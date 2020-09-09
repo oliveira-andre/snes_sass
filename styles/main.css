@@ -17,6 +17,30 @@
   background: #a8aaaa;
   z-index: 20;
 }
+.controller .trigger {
+  width: 100px;
+  height: 5px;
+  position: absolute;
+  z-index: -1;
+  background: #737A82;
+  top: -4px;
+  border-radius: 10px;
+}
+.controller .trigger:after {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 60px;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  right: 65px;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #737A82 transparent transparent transparent;
+  border-radius: 50%;
+  transform: rotate(-15deg);
+}
 .controller .left-side {
   margin-left: -170px;
 }
@@ -28,6 +52,9 @@
   border-radius: 50%;
   margin-top: 30px;
   margin-left: 45px;
+}
+.controller .left-side .trigger {
+  left: 90px;
 }
 .controller .left-side .horizontal {
   width: 90px;
@@ -147,6 +174,11 @@
   border-radius: 50%;
   margin-top: 10px;
   margin-left: 15px;
+}
+.controller .right-side .trigger {
+  left: 90px;
+  transform: scaleY(-1);
+  top: 209px !important;
 }
 .controller .right-side .group-1 {
   width: 45px;
