@@ -52,6 +52,44 @@ $main-color: #a8aaaa;
       left: 100px;
       border-radius: 2px;
     }
+
+    .triangles > a { 
+      width: 0; 
+      height: 0; 
+      position: absolute;
+
+      &:nth-child(1) {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 15px solid black;
+        left: 105px;
+        top: 60px;
+      }
+
+      &:nth-child(2) {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 15px solid black;
+        left: 105px;
+        top: 125px;
+      }
+
+      &:nth-child(3) {
+        border-bottom: 10px solid transparent;
+        border-top: 10px solid transparent;
+        border-right: 15px solid black;
+        left: 75px;
+        top: 90px;
+      }
+
+      &:nth-child(4) {
+        border-bottom: 10px solid transparent;
+        border-top: 10px solid transparent;
+        border-left: 15px solid black;
+        left: 140px;
+        top: 90px;
+      }
+    }
   }
 
   .start {
